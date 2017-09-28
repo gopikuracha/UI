@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-form-layout width="116px" height="28px">
+   <vaadin-text-field caption="First Name" _id="firstName"></vaadin-text-field>
+   <vaadin-text-field caption="Middle Name" _id="middleName"></vaadin-text-field>
+   <vaadin-text-field caption="Last Name" _id="lastName"></vaadin-text-field>
+   <vaadin-check-box-group data-item-type="java.lang.String" _id="gender">
+    <option item="male">Male</option>
+    <option item="female">Female</option>
+   </vaadin-check-box-group>
+   <vaadin-date-field caption="Date Of Birth" _id="birthDate"></vaadin-date-field>
+   <vaadin-horizontal-layout>
+    <vaadin-button style-name="primary" plain-text _id="save">
+      Save 
+    </vaadin-button>
+    <vaadin-button style-name="danger" plain-text _id="delete">
+      Delete 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-form-layout>
+ </body>
+</html>
